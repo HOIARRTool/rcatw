@@ -24,9 +24,10 @@ app.post('/api/generate', async (req, res) => {
         return res.status(500).json({ error: { message: "API Key not configured on server." } });
     }
 
-    // --- CHANGE: กลับมาใช้ v1beta (ถูกต้องแล้ว) และใช้ 1.5-flash ---
-    let modelName = 'gemini-1.5-flash'; 
-    let url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
+    // --- FINAL CONFIGURATION ---
+    // ใช้ v1beta คู่กับ gemini-1.5-flash (ชื่อมาตรฐาน ไม่เติม latest)
+    // นี่คือรุ่นที่เสถียรที่สุดและฟรี
+    const url = `https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent?key=${apiKey}`;
     
     const payload = {
         contents: [{ parts: [{ text: userPrompt }] }],
@@ -39,36 +40,23 @@ app.post('/api/generate', async (req, res) => {
     };
 
     try {
-        let response = await fetch(url, {
+        const response = await fetch(url, {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(payload)
         });
 
-        let data = await response.json();
-
-        // --- FALLBACK LOGIC: ถ้า 1.5-flash หาไม่เจอ ให้ลอง gemini-pro ---
-        if (!response.ok && data.error && (data.error.code === 404 || data.error.message.includes('not found'))) {
-            console.log("Model 1.5-flash not found, switching to gemini-pro...");
-            modelName = 'gemini-pro';
-            url = `https://generativelanguage.googleapis.com/v1beta/models/${modelName}:generateContent?key=${apiKey}`;
-            
-            response = await fetch(url, {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify(payload)
-            });
-            data = await response.json();
-        }
+        const data = await response.json();
 
         if (!response.ok) {
             console.error("Gemini API Error:", JSON.stringify(data, null, 2));
-            throw new Error(data.error?.message || 'Gemini API Error');
+            // ส่ง Error กลับไปบอกหน้าบ้านให้ชัดเจน
+            throw new Error(data.error?.message || `API Error: ${data.error?.code}`);
         }
 
         if (!data.candidates || !data.candidates[0]?.content?.parts?.[0]?.text) {
              console.error("AI blocked response:", JSON.stringify(data, null, 2));
-             throw new Error("AI refused to generate content.");
+             throw new Error("AI refused to generate content (Safety or Empty).");
         }
 
         res.json(data);
