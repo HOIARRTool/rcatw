@@ -496,31 +496,93 @@
 
                  <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="text-4xl">🧠</span>
-                        <h3 class="font-bold text-2xl text-slate-800">6. Human Factors</h3>
+                        <span class="text-4xl">📐</span> <h3 class="font-bold text-2xl text-slate-800">6. Human Factors Engineering</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        Designing the work system to fit human limitations (memory, attention) rather than forcing humans to fit the system.
+                        Instead of trying to change the human (who is fallible), <strong>HFE</strong> focuses on <strong>designing the system</strong>, devices, and workspace to fit human capabilities and limitations.
                     </p>
-                    <ul class="list-disc list-inside text-sm text-slate-600 bg-blue-50 p-4 rounded-lg border border-blue-100">
-                        <li><strong>Cognitive Load:</strong> Avoid multitasking.</li>
-                        <li><strong>Design:</strong> Use checklists & forcing functions.</li>
-                    </ul>
+                    
+                    <div class="bg-blue-50 p-5 rounded-xl border border-blue-100 text-sm">
+                        <strong class="text-blue-800 block mb-3 text-base">Key Engineering Strategies:</strong>
+                        <ul class="space-y-3">
+                            <li class="flex items-start gap-3">
+                                <div class="bg-white p-1 rounded border border-blue-200 shadow-sm text-lg">🔒</div>
+                                <div>
+                                    <strong class="text-slate-700">Forcing Functions</strong>
+                                    <p class="text-slate-500 text-xs mt-0.5">Designing so errors are impossible (e.g., connectors that physically cannot fit into the wrong port).</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <div class="bg-white p-1 rounded border border-blue-200 shadow-sm text-lg">📏</div>
+                                <div>
+                                    <strong class="text-slate-700">Standardization</strong>
+                                    <p class="text-slate-500 text-xs mt-0.5">Uniformity in equipment and layouts (e.g., all crash carts packed identically) to reduce cognitive load.</p>
+                                </div>
+                            </li>
+                            <li class="flex items-start gap-3">
+                                <div class="bg-white p-1 rounded border border-blue-200 shadow-sm text-lg">🔊</div>
+                                <div>
+                                    <strong class="text-slate-700">Usability & Alerts</strong>
+                                    <p class="text-slate-500 text-xs mt-0.5">Designing intuitive displays and distinct alarms to prevent confusion under stress.</p>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-
-                <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-indigo-500 hover:shadow-xl transition group">
+                <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-indigo-600 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="text-4xl">📈</span>
-                        <h3 class="font-bold text-2xl text-slate-800">7. Safety-II (Resilience)</h3>
+                        <span class="text-4xl">🧩</span> <h3 class="font-bold text-2xl text-slate-800">7. Contributing Factors</h3>
                     </div>
-                    <p class="text-slate-600 leading-relaxed mb-4">
-                        Learning from "what went right" (Work-as-Done) and how staff adapt to challenges, not just analyzing failures (Safety-I).
+                    <p class="text-slate-600 leading-relaxed mb-6">
+                        Identifying the underlying conditions that influenced the event. These are not "causes" in themselves, but they increase the likelihood of an error occurring.
                     </p>
-                     <div class="bg-indigo-50 p-4 rounded-lg border border-indigo-100 text-sm">
-                        <strong class="text-indigo-800">Goal:</strong> Enhance the system's ability to succeed under varying conditions.
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                        
+                        <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                            <strong class="text-indigo-800 flex items-center gap-2">
+                                <i class="fas fa-user-injured"></i> Patient Factors
+                            </strong>
+                            <p class="text-xs text-slate-600 mt-2">Clinical condition, complexity, communication barriers, or social factors.</p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                            <strong class="text-indigo-800 flex items-center gap-2">
+                                <i class="fas fa-tasks"></i> Task & Technology
+                            </strong>
+                            <p class="text-xs text-slate-600 mt-2">Protocol design, availability of test results, or equipment usability.</p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                            <strong class="text-indigo-800 flex items-center gap-2">
+                                <i class="fas fa-user-nurse"></i> Individual Factors
+                            </strong>
+                            <p class="text-xs text-slate-600 mt-2">Knowledge, skills, fatigue, stress, or physical health.</p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                            <strong class="text-indigo-800 flex items-center gap-2">
+                                <i class="fas fa-users"></i> Team Factors
+                            </strong>
+                            <p class="text-xs text-slate-600 mt-2">Verbal communication, written records, supervision, or seeking help.</p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                            <strong class="text-indigo-800 flex items-center gap-2">
+                                <i class="fas fa-hospital"></i> Work Environment
+                            </strong>
+                            <p class="text-xs text-slate-600 mt-2">Staffing levels, workload, noise, lighting, or administrative support.</p>
+                        </div>
+
+                        <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
+                            <strong class="text-indigo-800 flex items-center gap-2">
+                                <i class="fas fa-sitemap"></i> Org. & Management
+                            </strong>
+                            <p class="text-xs text-slate-600 mt-2">Safety culture, priorities, policies, or financial constraints.</p>
+                        </div>
+
                     </div>
                 </div>
-            </div>
         </section>
 
         <section class="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-slate-200">
@@ -737,7 +799,7 @@
 
     <footer class="bg-slate-900 py-12 border-t border-slate-800 mt-12">
         <div class="container mx-auto px-4 text-center">
-            <p class="text-slate-400 text-sm mb-2">© 2026 Healthcare Safety Series.</p>
+            <p class="text-slate-400 text-sm mb-2">This project is an initiative under the ASQua framework to harmonize quality standards across ASEAN member countries.</p>
             <p class="text-slate-600 text-xs">Empowering Healthcare Professionals in ASEAN</p>
         </div>
     </footer>
