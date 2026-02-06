@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="zh-TW">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,11 +7,11 @@
     <title>RCA 洞察助手 (Insight Companion)</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         body {
-            font-family: 'Noto Sans SC', sans-serif;
+            font-family: 'Noto Sans TC', sans-serif;
             background-color: #F8FAFC;
             color: #334155;
         }
@@ -136,25 +136,22 @@
     
       <div class="relative z-10 text-center px-4 md:px-20 mt-4">
         <h1 class="text-white font-bold text-xs md:text-sm lg:text-base leading-relaxed tracking-wide shadow-black drop-shadow-md">
-          弥合质量差距：在六个亚洲医疗体系中评估人工智能辅助的 RCA 工具包<br>
-          <span class="text-slate-300 font-medium">– 泰国、台湾、缅甸、马来西亚、文莱和菲律宾的合作项目 –</span>
+          彌合質量差距：在六個亞洲醫療體系中評估人工智慧輔助的 RCA 工具包<br><br>
+          <span class="text-slate-300 font-medium">– 泰國、台灣、緬甸、馬來西亞、汶萊和菲律賓的合作項目 –</span>
         </h1>
       </div>
     
       <div class="absolute top-6 right-6 flex items-center gap-4 z-20">            
         <div class="flex gap-2">
-        <a href="https://rca-th.onrender.com/" target="_blank" rel="noopener noreferrer" title="打开泰国工具">
-          <img src="https://flagcdn.com/h40/th.png" alt="Thailand" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
-        </a>    
-          <img src="https://flagcdn.com/h40/tw.png" alt="Taiwan" title="Taiwan" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
-          <img src="https://flagcdn.com/h40/mm.png" alt="Myanmar" title="Myanmar" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
-          <img src="https://flagcdn.com/h40/ph.png" alt="Philippines" title="Philippines" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
-          <img src="https://flagcdn.com/h40/my.png" alt="Malaysia" title="Malaysia" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
-          <img src="https://flagcdn.com/h40/bn.png" alt="Brunei" title="Brunei" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
+          <img src="https://flagcdn.com/h40/th.png" alt="Thailand" title="泰國" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
+          <img src="https://flagcdn.com/h40/tw.png" alt="Taiwan" title="台灣" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
+          <img src="https://flagcdn.com/h40/mm.png" alt="Myanmar" title="緬甸" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
+          <img src="https://flagcdn.com/h40/ph.png" alt="Philippines" title="菲律賓" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
+          <img src="https://flagcdn.com/h40/my.png" alt="Malaysia" title="馬來西亞" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
+          <img src="https://flagcdn.com/h40/bn.png" alt="Brunei" title="汶萊" class="h-6 rounded shadow-lg opacity-90 hover:opacity-100 hover:scale-110 transition-transform duration-200">
         </div>
       </div>
     </header>
-
 
     <main class="container mx-auto px-4 -mt-20 pb-16 space-y-24 max-w-screen-2xl relative z-20">
 
@@ -167,7 +164,7 @@
                             <span>✨</span> RCA 洞察助手 (Insight Companion)
                         </h2>
                         <p class="text-slate-500 max-w-2xl mx-auto">
-                            您在深度学习、根本原因分析和共同创建更安全系统方面的支持伙伴。
+                            您在深度學習、根本原因分析和共同創建更安全系統方面的支援夥伴。
                         </p>
                     </div>
 
@@ -176,10 +173,10 @@
                         <div class="space-y-6">
                             <div class="bg-slate-50 rounded-2xl p-6 border border-slate-200 shadow-sm hover:shadow-md transition duration-300">
                                 <h3 class="text-lg font-bold text-slate-800 mb-3 flex items-center gap-2">
-                                    <span class="text-2xl">🏥</span> 1. 医院风险或事件报告
+                                    <span class="text-2xl">🏥</span> 1. 醫院風險或事件報告
                                 </h3>
-                                <p class="text-xs text-slate-500 mb-3">描述事件过程。我们将帮助您可视化根本原因。</p>
-                                <textarea id="scenarioInput" class="w-full p-4 border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-amber-500 outline-none transition shadow-inner mb-4 bg-white" rows="6" placeholder="例如：由于包装相似且工作量大，护士给错了药..."></textarea>
+                                <p class="text-xs text-slate-500 mb-3">描述事件過程。我們將幫助您可視化根本原因。</p>
+                                <textarea id="scenarioInput" class="w-full p-4 border border-slate-300 rounded-xl text-sm focus:ring-2 focus:ring-amber-500 outline-none transition shadow-inner mb-4 bg-white" rows="6" placeholder="例如：由於包裝相似且工作量大，護士給錯了藥..."></textarea>
                                 
                                 <button id="combinedRunButton" onclick="startFullAnalysis()" class="w-full bg-green-600 hover:bg-green-700 text-white font-bold py-3 px-4 rounded-xl transition shadow-lg hover:shadow-green-500/30 flex justify-center items-center gap-2 transform active:scale-95">
                                     <span id="runSpinner" class="loader hidden border-white border-t-green-800"></span>
@@ -193,17 +190,17 @@
                         </div>
 
                         <div class="bg-blue-50 rounded-2xl p-6 border-2 border-blue-100 shadow-md relative overflow-hidden h-full">
-                            <div class="absolute top-0 right-0 bg-blue-200 text-blue-800 text-[10px] font-bold px-2 py-1 rounded-bl-lg">步骤 2 (自动)</div>
+                            <div class="absolute top-0 right-0 bg-blue-200 text-blue-800 text-[10px] font-bold px-2 py-1 rounded-bl-lg">步驟 2 (自動)</div>
                             <h3 class="text-lg font-bold text-blue-900 mb-3 flex items-center gap-2">
-                                <span class="text-2xl">🎯</span> 2. 风险分析与行动计划
+                                <span class="text-2xl">🎯</span> 2. 風險分析與行動計畫
                             </h3>
-                            <p class="text-xs text-blue-700 mb-4">系统生成 3 个关键部分：PDSA、行动计划、改进方案及结论建议。</p>
-                            <label class="block text-xs font-bold text-slate-500 mb-1 uppercase">输入数据：</label>
-                            <textarea id="planInput" class="w-full p-4 border border-blue-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none h-24 bg-white mb-4 shadow-inner font-mono text-slate-600" placeholder="等待分析结果..."></textarea>
+                            <p class="text-xs text-blue-700 mb-4">系統生成 3 個關鍵部分：PDSA、行動計畫、改進方案及結論建議。</p>
+                            <label class="block text-xs font-bold text-slate-500 mb-1 uppercase">輸入數據：</label>
+                            <textarea id="planInput" class="w-full p-4 border border-blue-200 rounded-xl text-sm focus:ring-2 focus:ring-blue-500 outline-none h-24 bg-white mb-4 shadow-inner font-mono text-slate-600" placeholder="等待分析結果..."></textarea>
                             <div class="flex gap-2">
-                                <button onclick="exportToWord()" class="w-full bg-white hover:bg-slate-50 text-blue-700 border border-blue-200 font-bold py-3 px-4 rounded-xl transition shadow-md flex justify-center items-center gap-2 transform active:scale-95" title="导出 Word">
+                                <button onclick="exportToWord()" class="w-full bg-white hover:bg-slate-50 text-blue-700 border border-blue-200 font-bold py-3 px-4 rounded-xl transition shadow-md flex justify-center items-center gap-2 transform active:scale-95" title="導出 Word">
                                     <span class="text-lg">📄</span>
-                                    <span class="md:inline">导出 Word 文档</span>
+                                    <span class="md:inline">導出 Word 檔案</span>
                                 </button>
                             </div>
 
@@ -218,7 +215,7 @@
             
             <div class="mt-20 flex items-center justify-center">
                 <div class="h-px w-24 bg-slate-300"></div>
-                <span class="px-4 text-slate-400 text-sm font-semibold tracking-wider uppercase">深度知识库 (Deep Dive Knowledge)</span>
+                <span class="px-4 text-slate-400 text-sm font-semibold tracking-wider uppercase">深度知識庫 (Deep Dive Knowledge)</span>
                 <div class="h-px w-24 bg-slate-300"></div>
             </div>
         </section>
@@ -228,7 +225,7 @@
                 <h2 class="text-3xl font-bold text-slate-800">1. 核心概念深度解析</h2>
                 <div class="h-1 w-20 bg-teal-500 mx-auto mt-4 rounded-full"></div>
                 <p class="text-slate-600 mt-4 max-w-3xl mx-auto">
-                    理解 6 大安全支柱，可视化“事故如何发生”以及“如何预防”，而不归咎于个人。
+                    理解 6 大安全支柱，可視化「事故如何發生」以及「如何預防」，而不歸咎於個人。
                 </p>
             </div>
 
@@ -237,20 +234,18 @@
                 <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-cyan-500 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="text-4xl">🐟</span>
-                        <h3 class="font-bold text-2xl text-slate-800">1. 鱼骨图 (石川图)</h3>
+                        <h3 class="font-bold text-2xl text-slate-800">1. 魚骨圖 (石川圖)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        <strong>石川馨博士 (Dr. Kaoru Ishikawa)</strong> 开发了此 RCA 工具。在医疗保健中，我们关注 <strong>6M</strong>：
+                        <strong>石川馨博士 (Dr. Kaoru Ishikawa)</strong> 開發了此 RCA 工具。在醫療保健中，我們關注 <strong>6M</strong>：
                     </p>
                     
                     <div class="w-full overflow-hidden bg-slate-50 rounded-xl border border-slate-200 p-2 mb-4 flex justify-center">
                         <svg viewBox="0 0 800 350" class="w-full h-auto drop-shadow-sm">
                             <line x1="50" y1="175" x2="650" y2="175" stroke="#334155" stroke-width="4" />
-                            
                             <polygon points="650,130 790,175 650,220" fill="#0EA5E9" />
-                            
-                            <text x="705" y="172" font-family="sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">问题</text>
-                            <text x="705" y="195" font-family="sans-serif" font-size="12" fill="#E0F2FE" text-anchor="middle">(结果)</text>
+                            <text x="705" y="172" font-family="sans-serif" font-size="16" font-weight="bold" fill="white" text-anchor="middle">問題</text>
+                            <text x="705" y="195" font-family="sans-serif" font-size="12" fill="#E0F2FE" text-anchor="middle">(結果)</text>
                             
                             <line x1="150" y1="50" x2="200" y2="175" stroke="#64748B" stroke-width="2" />
                             <rect x="100" y="20" width="100" height="30" rx="5" fill="white" stroke="#64748B" />
@@ -258,7 +253,7 @@
                     
                             <line x1="350" y1="50" x2="400" y2="175" stroke="#64748B" stroke-width="2" />
                             <rect x="300" y="20" width="100" height="30" rx="5" fill="white" stroke="#64748B" />
-                            <text x="350" y="40" font-family="sans-serif" font-size="14" font-weight="bold" fill="#334155" text-anchor="middle">机 (Machine)</text>
+                            <text x="350" y="40" font-family="sans-serif" font-size="14" font-weight="bold" fill="#334155" text-anchor="middle">機 (Machine)</text>
                     
                             <line x1="550" y1="50" x2="600" y2="175" stroke="#64748B" stroke-width="2" />
                             <rect x="500" y="20" width="100" height="30" rx="5" fill="white" stroke="#64748B" />
@@ -270,68 +265,68 @@
                     
                             <line x1="450" y1="300" x2="500" y2="175" stroke="#64748B" stroke-width="2" />
                             <rect x="400" y="300" width="120" height="30" rx="5" fill="white" stroke="#64748B" />
-                            <text x="460" y="320" font-family="sans-serif" font-size="14" font-weight="bold" fill="#334155" text-anchor="middle">环 (Environment)</text>
+                            <text x="460" y="320" font-family="sans-serif" font-size="14" font-weight="bold" fill="#334155" text-anchor="middle">環 (Environment)</text>
                         </svg>
                     </div>
                     
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-600 bg-cyan-50 p-4 rounded-xl border border-cyan-100">
                         <div>
                             <strong class="text-cyan-800">1. 人 (Man):</strong>
-                            <p>员工能力、疲劳、压力、人员配置水平和培训。</p>
+                            <p>員工能力、疲勞、壓力、人員配置水平和培訓。</p>
                         </div>
                         <div>
-                            <strong class="text-cyan-800">2. 机 (Machine):</strong>
-                            <p>设备故障、校准问题、缺乏维护或可用性设计。</p>
+                            <strong class="text-cyan-800">2. 機 (Machine):</strong>
+                            <p>設備故障、校準問題、缺乏維護或可用性設計。</p>
                         </div>
                         <div>
                             <strong class="text-cyan-800">3. 法 (Method):</strong>
-                            <p>SOP 不清晰、指南过时或沟通协议不佳。</p>
+                            <p>SOP 不清晰、指南過時或溝通協議不佳。</p>
                         </div>
                         <div>
                             <strong class="text-cyan-800">4. 料 (Material):</strong>
-                            <p>药物缺陷、外包装相似或消耗品质量差。</p>
+                            <p>藥物缺陷、外包裝相似或消耗品品質差。</p>
                         </div>
                         <div>
-                            <strong class="text-cyan-800">5. 环 (Environment):</strong>
-                            <p>噪音、照明、布局、干扰或温度。</p>
+                            <strong class="text-cyan-800">5. 環 (Environment):</strong>
+                            <p>噪音、照明、佈局、干擾或溫度。</p>
                         </div>
                         <div>
-                            <strong class="text-cyan-800">6. 测 (Measurement):</strong>
-                            <p>数据准确性、实验室结果解释或指标有效性。</p>
+                            <strong class="text-cyan-800">6. 測 (Measurement):</strong>
+                            <p>數據準確性、實驗室結果解釋或指標有效性。</p>
                         </div>
                     </div>
-                    </div>
+                </div>
 
                 <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-pink-500 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="text-4xl">❓</span>
-                        <h3 class="font-bold text-2xl text-slate-800">2. 5个为什么 (5 Whys)</h3>
+                        <h3 class="font-bold text-2xl text-slate-800">2. 5個為什麼 (5 Whys)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        由 <strong>丰田佐吉 (Sakichi Toyoda)</strong> 开发，此技术通过问五次“为什么”来深入挖掘鱼骨图中识别出的特定问题，从而找到单一根本原因。
+                        由 <strong>豐田佐吉 (Sakichi Toyoda)</strong> 開發，此技術透過問五次「為什麼」來深入挖掘魚骨圖中識別出的特定問題，從而找到單一根本原因。
                     </p>
                     <div class="bg-pink-50 p-4 rounded-lg border border-pink-100">
                         <strong class="text-pink-800 block mb-2 text-sm">示例：患者跌倒。</strong>
                         <div class="space-y-0">
                             <div class="why-step">
                                 <div class="why-number">1</div><div class="why-line"></div>
-                                <div class="text-sm text-slate-700 pt-1">为什么？地板湿了。</div>
+                                <div class="text-sm text-slate-700 pt-1">為什麼？地板濕了。</div>
                             </div>
                             <div class="why-step">
                                 <div class="why-number">2</div><div class="why-line"></div>
-                                <div class="text-sm text-slate-700 pt-1">为什么？管子漏水。</div>
+                                <div class="text-sm text-slate-700 pt-1">為什麼？管子漏水。</div>
                             </div>
                             <div class="why-step">
                                 <div class="why-number">3</div><div class="why-line"></div>
-                                <div class="text-sm text-slate-700 pt-1">为什么？密封圈破了。</div>
+                                <div class="text-sm text-slate-700 pt-1">為什麼？密封圈破了。</div>
                             </div>
                             <div class="why-step">
                                 <div class="why-number">4</div><div class="why-line"></div>
-                                <div class="text-sm text-slate-700 pt-1">为什么？买了便宜的密封圈。</div>
+                                <div class="text-sm text-slate-700 pt-1">為什麼？買了便宜的密封圈。</div>
                             </div>
                             <div class="why-step">
                                 <div class="why-number">5</div>
-                                <div class="text-sm text-slate-700 pt-1 font-bold text-pink-700">根本原因：采购政策关注最低价格，而非质量。</div>
+                                <div class="text-sm text-slate-700 pt-1 font-bold text-pink-700">根本原因：採購政策關注最低價格，而非品質。</div>
                             </div>
                         </div>
                     </div>
@@ -340,13 +335,13 @@
                 <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-green-600 hover:shadow-xl transition group">
                   <div class="flex items-center gap-3 mb-4">
                     <span class="text-4xl">🎄</span>
-                    <h3 class="font-bold text-2xl text-slate-800">3. 圣诞树图 (故障树分析 FTA)</h3>
+                    <h3 class="font-bold text-2xl text-slate-800">3. 聖誕樹圖 (故障樹分析 FTA)</h3>
                   </div>
                   
-                  <p class="text-xs text-slate-500 mb-3">故障路径的视觉图</p>
+                  <p class="text-xs text-slate-500 mb-3">故障路徑的視覺圖</p>
                   
                   <div class="bg-green-50 p-6 rounded-xl border border-green-200 flex flex-col items-center overflow-x-auto">
-                    <div class="bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-md z-10 text-center">...识别顶层事件 (事故)...</div>
+                    <div class="bg-red-500 text-white px-4 py-2 rounded-lg font-bold text-sm shadow-md z-10 text-center">...識別頂層事件 (事故)...</div>
                     <div class="h-6 w-0.5 bg-slate-400"></div>
                   
                     <div class="bg-slate-800 text-white text-[10px] px-2 py-0.5 rounded z-10 relative">或 (OR)</div>
@@ -364,7 +359,7 @@
                   
                       <div class="flex flex-col items-center w-1/2">
                         <div class="h-4 w-0.5 bg-slate-400"></div>
-                        <div class="bg-blue-600 text-white text-[10px] px-2 py-0.5 rounded z-10 relative">与 (AND)</div>
+                        <div class="bg-blue-600 text-white text-[10px] px-2 py-0.5 rounded z-10 relative">與 (AND)</div>
                         <div class="h-4 w-0.5 bg-slate-400"></div>
                   
                         <div class="w-24 h-0.5 bg-slate-400"></div>
@@ -387,10 +382,10 @@
                 <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-amber-500 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
                         <span class="text-4xl">🧀</span>
-                        <h3 class="font-bold text-2xl text-slate-800">4. 瑞士奶酪模型 (Swiss Cheese Model)</h3>
+                        <h3 class="font-bold text-2xl text-slate-800">4. 瑞士乳酪模型 (Swiss Cheese Model)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        <strong>詹姆斯·瑞森 (James Reason) 模型：</strong> 当多层防御中的“漏洞”（弱点）对齐，允许危险穿过时，事故就会发生。
+                        <strong>詹姆斯·瑞森 (James Reason) 模型：</strong> 當多層防禦中的「漏洞」（弱點）對齊，允許危險穿過時，事故就會發生。
                     </p>
 
                     <div class="w-full overflow-hidden bg-slate-50 rounded-xl border border-slate-200 p-6 mb-6 flex justify-center">
@@ -402,7 +397,7 @@
                             </defs>
 
                             <line x1="50" y1="140" x2="720" y2="140" stroke="#EF4444" stroke-width="4" stroke-dasharray="10,5" marker-end="url(#arrowRed)" />
-                            <text x="50" y="120" font-family="sans-serif" font-size="14" font-weight="bold" fill="#EF4444">危险 (HAZARD)</text>
+                            <text x="50" y="120" font-family="sans-serif" font-size="14" font-weight="bold" fill="#EF4444">危險 (HAZARD)</text>
 
                             <g transform="translate(150, 40)">
                                 <rect x="0" y="0" width="70" height="200" rx="4" fill="#FEF3C7" stroke="#334155" stroke-width="2" />
@@ -417,7 +412,7 @@
                                 <circle cx="20" cy="50" r="9" fill="white" stroke="#334155" stroke-width="1" />
                                 <circle cx="50" cy="160" r="11" fill="white" stroke="#334155" stroke-width="1" />
                                 <circle cx="35" cy="100" r="15" fill="white" stroke="#EF4444" stroke-width="2" stroke-dasharray="4,2" />
-                                <text x="35" y="230" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">监管</text>
+                                <text x="35" y="230" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">監管</text>
                             </g>
 
                             <g transform="translate(450, 40)">
@@ -425,7 +420,7 @@
                                 <circle cx="45" cy="30" r="8" fill="white" stroke="#334155" stroke-width="1" />
                                 <circle cx="25" cy="170" r="10" fill="white" stroke="#334155" stroke-width="1" />
                                 <circle cx="35" cy="100" r="15" fill="white" stroke="#EF4444" stroke-width="2" stroke-dasharray="4,2" />
-                                <text x="35" y="230" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">条件</text>
+                                <text x="35" y="230" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">條件</text>
                             </g>
 
                             <g transform="translate(600, 40)">
@@ -433,32 +428,32 @@
                                 <circle cx="20" cy="60" r="12" fill="white" stroke="#334155" stroke-width="1" />
                                 <circle cx="50" cy="150" r="9" fill="white" stroke="#334155" stroke-width="1" />
                                 <circle cx="35" cy="100" r="15" fill="white" stroke="#EF4444" stroke-width="2" stroke-dasharray="4,2" />
-                                <text x="35" y="230" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">行动</text>
+                                <text x="35" y="230" font-family="sans-serif" font-size="12" font-weight="bold" fill="#334155" text-anchor="middle">行動</text>
                             </g>
 
                             <g transform="translate(740, 140)">
                                 <path d="M0 -20 L5 -5 L20 0 L5 5 L0 20 L-5 5 L-20 0 L-5 -5 Z" fill="#EF4444" stroke="#991B1B" stroke-width="2" />
-                                <text x="0" y="40" font-family="sans-serif" font-size="14" font-weight="bold" fill="#EF4444" text-anchor="middle">损失</text>
+                                <text x="0" y="40" font-family="sans-serif" font-size="14" font-weight="bold" fill="#EF4444" text-anchor="middle">損失</text>
                             </g>
                         </svg>
                     </div>
 
                     <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 text-xs text-slate-600 bg-amber-50 p-4 rounded-xl border border-amber-100">
                         <div>
-                            <strong class="text-amber-800">1. 组织影响:</strong>
-                            <p>资源分配、组织文化、政策。</p>
+                            <strong class="text-amber-800">1. 組織影響:</strong>
+                            <p>資源分配、組織文化、政策。</p>
                         </div>
                         <div>
-                            <strong class="text-amber-800">2. 不安全监管:</strong>
-                            <p>培训不足、排班不当、未纠正问题。</p>
+                            <strong class="text-amber-800">2. 不安全監管:</strong>
+                            <p>培訓不足、排班不當、未糾正問題。</p>
                         </div>
                         <div>
-                            <strong class="text-amber-800">3. 前提条件:</strong>
-                            <p>疲劳、压力、工作量大、设备设计不佳。</p>
+                            <strong class="text-amber-800">3. 前提條件:</strong>
+                            <p>疲勞、壓力、工作量大、設備設計不佳。</p>
                         </div>
                         <div>
-                            <strong class="text-amber-800">4. 不安全行为:</strong>
-                            <p>员工的失误、疏忽、错误或违反程序。</p>
+                            <strong class="text-amber-800">4. 不安全行為:</strong>
+                            <p>員工的失誤、疏忽、錯誤或違反程序。</p>
                         </div>
                     </div>
                 </div>
@@ -469,28 +464,28 @@
                         <h3 class="font-bold text-2xl text-slate-800">5. 公正文化 (Just Culture)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        公正文化区分 3 种行为（人为错误、风险行为、鲁莽行为），以便进行适当管理。
+                        公正文化區分 3 種行為（人為錯誤、風險行為、魯莽行為），以便進行適當管理。
                     </p>
                     <div class="overflow-x-auto">
                         <table class="w-full text-sm text-left text-slate-600 border border-slate-200 rounded-lg">
                             <thead class="bg-slate-100 text-slate-700 font-bold">
                                 <tr>
-                                    <th class="p-2 border-b">行为</th>
+                                    <th class="p-2 border-b">行為</th>
                                     <th class="p-2 border-b">管理方式</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr class="border-b bg-green-50">
-                                    <td class="p-2 font-bold text-green-700">人为错误 (Human Error)</td>
+                                    <td class="p-2 font-bold text-green-700">人為錯誤 (Human Error)</td>
                                     <td class="p-2">安慰 (Console)</td>
                                 </tr>
                                 <tr class="border-b bg-yellow-50">
-                                    <td class="p-2 font-bold text-yellow-700">风险行为 (At-Risk)</td>
-                                    <td class="p-2">指导 (Coach)</td>
+                                    <td class="p-2 font-bold text-yellow-700">風險行為 (At-Risk)</td>
+                                    <td class="p-2">指導 (Coach)</td>
                                 </tr>
                                 <tr class="bg-red-50">
-                                    <td class="p-2 font-bold text-red-700">鲁莽行为 (Reckless)</td>
-                                    <td class="p-2">惩罚 (Punish)</td>
+                                    <td class="p-2 font-bold text-red-700">魯莽行為 (Reckless)</td>
+                                    <td class="p-2">懲罰 (Punish)</td>
                                 </tr>
                             </tbody>
                         </table>
@@ -499,34 +494,34 @@
 
                  <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-blue-500 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="text-4xl">📐</span> <h3 class="font-bold text-2xl text-slate-800">6. 人因工程学 (Human Factors)</h3>
+                        <span class="text-4xl">📐</span> <h3 class="font-bold text-2xl text-slate-800">6. 人因工程學 (Human Factors)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        <strong>HFE</strong> 不试图改变人类（人是会犯错的），而是专注于<strong>设计系统</strong>、设备和工作空间，以适应人类的能力和局限性。
+                        <strong>HFE</strong> 不試圖改變人類（人是會犯錯的），而是專注於<strong>設計系統</strong>、設備和工作空間，以適應人類的能力和局限性。
                     </p>
                     
                     <div class="bg-blue-50 p-5 rounded-xl border border-blue-100 text-sm">
-                        <strong class="text-blue-800 block mb-3 text-base">关键工程策略：</strong>
+                        <strong class="text-blue-800 block mb-3 text-base">關鍵工程策略：</strong>
                         <ul class="space-y-3">
                             <li class="flex items-start gap-3">
                                 <div class="bg-white p-1 rounded border border-blue-200 shadow-sm text-lg">🔒</div>
                                 <div>
-                                    <strong class="text-slate-700">强制功能 (Forcing Functions)</strong>
-                                    <p class="text-slate-500 text-xs mt-0.5">设计使错误不可能发生（例如：物理上无法插入错误端口的连接器）。</p>
+                                    <strong class="text-slate-700">強制功能 (Forcing Functions)</strong>
+                                    <p class="text-slate-500 text-xs mt-0.5">設計使錯誤不可能發生（例如：物理上無法插入錯誤端口的連接器）。</p>
                                 </div>
                             </li>
                             <li class="flex items-start gap-3">
                                 <div class="bg-white p-1 rounded border border-blue-200 shadow-sm text-lg">📏</div>
                                 <div>
-                                    <strong class="text-slate-700">标准化 (Standardization)</strong>
-                                    <p class="text-slate-500 text-xs mt-0.5">设备和布局的统一性（例如：所有急救车包装相同），以减少认知负荷。</p>
+                                    <strong class="text-slate-700">標準化 (Standardization)</strong>
+                                    <p class="text-slate-500 text-xs mt-0.5">設備和佈局的統一性（例如：所有急救車包裝相同），以減少認知負荷。</p>
                                 </div>
                             </li>
                             <li class="flex items-start gap-3">
                                 <div class="bg-white p-1 rounded border border-blue-200 shadow-sm text-lg">🔊</div>
                                 <div>
-                                    <strong class="text-slate-700">可用性与警报 (Usability & Alerts)</strong>
-                                    <p class="text-slate-500 text-xs mt-0.5">设计直观的显示和独特的警报，以防止压力下的混淆。</p>
+                                    <strong class="text-slate-700">可用性與警報 (Usability & Alerts)</strong>
+                                    <p class="text-slate-500 text-xs mt-0.5">設計直觀的顯示和獨特的警報，以防止壓力下的混淆。</p>
                                 </div>
                             </li>
                         </ul>
@@ -537,7 +532,7 @@
                         <span class="text-4xl">🧩</span> <h3 class="font-bold text-2xl text-slate-800">7. 促成因素 (Contributing Factors)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-6">
-                        识别影响事件的潜在条件。它们本身不是“原因”，但增加了错误发生的可能性。
+                        識別影響事件的潛在條件。它們本身不是「原因」，但增加了錯誤發生的可能性。
                     </p>
                     
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -546,94 +541,94 @@
                             <strong class="text-indigo-800 flex items-center gap-2">
                                 <i class="fas fa-user-injured"></i> 患者因素
                             </strong>
-                            <p class="text-xs text-slate-600 mt-2">临床状况、复杂性、沟通障碍或社会因素。</p>
+                            <p class="text-xs text-slate-600 mt-2">臨床狀況、複雜性、溝通障礙或社會因素。</p>
                         </div>
 
                         <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
                             <strong class="text-indigo-800 flex items-center gap-2">
-                                <i class="fas fa-tasks"></i> 任务与技术
+                                <i class="fas fa-tasks"></i> 任務與技術
                             </strong>
-                            <p class="text-xs text-slate-600 mt-2">协议设计、测试结果的可用性或设备可用性。</p>
+                            <p class="text-xs text-slate-600 mt-2">協議設計、測試結果的可用性或設備可用性。</p>
                         </div>
 
                         <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
                             <strong class="text-indigo-800 flex items-center gap-2">
-                                <i class="fas fa-user-nurse"></i> 个人因素
+                                <i class="fas fa-user-nurse"></i> 個人因素
                             </strong>
-                            <p class="text-xs text-slate-600 mt-2">知识、技能、疲劳、压力或身体健康。</p>
+                            <p class="text-xs text-slate-600 mt-2">知識、技能、疲勞、壓力或身體健康。</p>
                         </div>
 
                         <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
                             <strong class="text-indigo-800 flex items-center gap-2">
-                                <i class="fas fa-users"></i> 团队因素
+                                <i class="fas fa-users"></i> 團隊因素
                             </strong>
-                            <p class="text-xs text-slate-600 mt-2">口头沟通、书面记录、监督或寻求帮助。</p>
+                            <p class="text-xs text-slate-600 mt-2">口頭溝通、書面記錄、監督或尋求幫助。</p>
                         </div>
 
                         <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
                             <strong class="text-indigo-800 flex items-center gap-2">
-                                <i class="fas fa-hospital"></i> 工作环境
+                                <i class="fas fa-hospital"></i> 工作環境
                             </strong>
-                            <p class="text-xs text-slate-600 mt-2">人员配备水平、工作量、噪音、照明或行政支持。</p>
+                            <p class="text-xs text-slate-600 mt-2">人員配置水平、工作量、噪音、照明或行政支持。</p>
                         </div>
 
                         <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-100">
                             <strong class="text-indigo-800 flex items-center gap-2">
-                                <i class="fas fa-sitemap"></i> 组织与管理
+                                <i class="fas fa-sitemap"></i> 組織與管理
                             </strong>
-                            <p class="text-xs text-slate-600 mt-2">安全文化、优先事项、政策或财务限制。</p>
+                            <p class="text-xs text-slate-600 mt-2">安全文化、優先事項、政策或財務限制。</p>
                         </div>
 
                     </div>
                 </div>
                 <div class="bg-white p-8 rounded-2xl shadow-lg border-t-4 border-rose-500 hover:shadow-xl transition group">
                     <div class="flex items-center gap-3 mb-4">
-                        <span class="text-4xl">🔮</span> <h3 class="font-bold text-2xl text-slate-800">8. FMEA (未来预防)</h3>
+                        <span class="text-4xl">🔮</span> <h3 class="font-bold text-2xl text-slate-800">8. FMEA (未來預防)</h3>
                     </div>
                     <p class="text-slate-600 leading-relaxed mb-4">
-                        <strong>失效模式与影响分析：</strong> RCA 回顾过去以解决问题，而 FMEA 展望<strong>未来</strong>，在故障发生<em>之前</em>进行预测和预防。
+                        <strong>失效模式與影響分析：</strong> RCA 回顧過去以解決問題，而 FMEA 展望<strong>未來</strong>，在故障發生<em>之前</em>進行預測和預防。
                     </p>
 
                     <div class="bg-rose-50 border-l-4 border-rose-500 p-4 mb-6 rounded-r-lg">
-                        <strong class="text-rose-700 text-sm uppercase tracking-wide">🚀 何时使用：</strong>
+                        <strong class="text-rose-700 text-sm uppercase tracking-wide">🚀 何時使用：</strong>
                         <p class="text-rose-800 text-sm mt-1">
-                            在设计新行动计划（来自步骤 2）<strong>之后</strong>使用 FMEA，在全院推广之前对新解决方案进行“压力测试”。
+                            在設計新行動計畫（來自步驟 2）<strong>之後</strong>使用 FMEA，在全院推廣之前對新解決方案進行「壓力測試」。
                         </p>
                     </div>
 
                     <div class="bg-white border border-rose-100 rounded-xl p-4 shadow-sm">
                         <div class="text-center mb-3">
-                            <span class="text-xs font-bold text-slate-400 uppercase">风险公式 (RPN)</span>
+                            <span class="text-xs font-bold text-slate-400 uppercase">風險公式 (RPN)</span>
                         </div>
                         <div class="flex flex-wrap justify-center items-center gap-2 md:gap-4 text-center">
                             
                             <div class="bg-rose-100 p-3 rounded-lg w-24">
                                 <div class="text-2xl font-bold text-rose-600">S</div>
-                                <div class="text-[10px] text-rose-800 font-bold mt-1">严重度</div>
-                                <div class="text-[9px] text-rose-600">(多严重?)</div>
+                                <div class="text-[10px] text-rose-800 font-bold mt-1">嚴重度</div>
+                                <div class="text-[9px] text-rose-600">(多嚴重?)</div>
                             </div>
 
                             <div class="text-slate-300 text-xl">✖</div>
 
                             <div class="bg-rose-100 p-3 rounded-lg w-24">
                                 <div class="text-2xl font-bold text-rose-600">O</div>
-                                <div class="text-[10px] text-rose-800 font-bold mt-1">发生率</div>
-                                <div class="text-[9px] text-rose-600">(多频繁?)</div>
+                                <div class="text-[10px] text-rose-800 font-bold mt-1">發生率</div>
+                                <div class="text-[9px] text-rose-600">(多頻繁?)</div>
                             </div>
 
                             <div class="text-slate-300 text-xl">✖</div>
 
                             <div class="bg-rose-100 p-3 rounded-lg w-24">
                                 <div class="text-2xl font-bold text-rose-600">D</div>
-                                <div class="text-[10px] text-rose-800 font-bold mt-1">探测度</div>
-                                <div class="text-[9px] text-rose-600">(能发现吗?)</div>
+                                <div class="text-[10px] text-rose-800 font-bold mt-1">探測度</div>
+                                <div class="text-[9px] text-rose-600">(能發現嗎?)</div>
                             </div>
 
                             <div class="text-slate-400 text-xl">=</div>
 
                             <div class="bg-slate-800 p-3 rounded-lg w-28 shadow-md">
                                 <div class="text-2xl font-bold text-white">RPN</div>
-                                <div class="text-[10px] text-slate-300 mt-1">风险优先数</div>
+                                <div class="text-[10px] text-slate-300 mt-1">風險優先數</div>
                             </div>
                         </div>
                     </div>
@@ -643,110 +638,40 @@
         <section class="bg-white rounded-3xl shadow-xl p-8 md:p-12 border border-slate-200">
             <div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
                 <div class="lg:col-span-5 space-y-6">
-                    <h2 class="text-3xl font-bold text-slate-800">2. 评估与现状</h2>
+                    <h2 class="text-3xl font-bold text-slate-800">2. 評估與現狀</h2>
                     <div class="h-1 w-20 bg-teal-500 rounded-full"></div>
                     <p class="text-slate-600 leading-relaxed font-light italic border-l-4 border-teal-500 pl-4 bg-teal-50/50 p-2 rounded-r-lg">
-                        "基于 <strong>AHRQ HSOPSC 2.0</strong> (10 项指标)。输入您的实际 <strong>'% 正面响应率'</strong>。图表将揭示现实与理想 100% 之间的差距。"
+                        "基於 <strong>AHRQ HSOPSC 2.0</strong> (10 項指標)。輸入您的實際 <strong>'% 正面回應率'</strong>。圖表將揭示現實與理想 100% 之間的差距。"
                     </p>
                     
                     <div class="bg-slate-100 p-4 rounded-xl border border-slate-200 max-h-[500px] overflow-y-auto">
                         <h4 class="text-xs font-bold text-slate-500 uppercase mb-3 tracking-wide flex items-center gap-2 sticky top-0 bg-slate-100 py-2 border-b">
-                            <span>🎚️</span> 输入正面响应百分比
+                            <span>🎚️</span> 輸入正面回應百分比
                         </h4>
-                        <div class="space-y-4 text-sm">
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">1. 团队合作</label>
-                                    <span id="val-0" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(0, this.value)">
+                        <div class="space-y-4 text-sm" id="radarControls">
                             </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">2. 人员配置与工作节奏</label>
-                                    <span id="val-1" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(1, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">3. 组织学习</label>
-                                    <span id="val-2" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(2, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">4. 错误响应</label>
-                                    <span id="val-3" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(3, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">5. 主管支持</label>
-                                    <span id="val-4" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(4, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">6. 关于错误的沟通</label>
-                                    <span id="val-5" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(5, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">7. 沟通开放性</label>
-                                    <span id="val-6" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(6, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">8. 安全事件报告</label>
-                                    <span id="val-7" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(7, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">9. 医院管理层支持</label>
-                                    <span id="val-8" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(8, this.value)">
-                            </div>
-                            <div>
-                                <div class="flex justify-between mb-1">
-                                    <label class="text-slate-700 font-semibold text-xs">10. 交接与信息交换</label>
-                                    <span id="val-9" class="text-teal-600 font-bold text-xs">0.00%</span>
-                                </div>
-                                <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(9, this.value)">
-                            </div>
-                        </div>
                     </div>
 
                     <div class="chart-container mt-6">
                         <canvas id="assessmentChart"></canvas>
                     </div>
-                    <p class="text-xs text-center text-slate-400 mt-2">交互式：比较您的 % 正面响应率与 100% 理想目标</p>
+                    <p class="text-xs text-center text-slate-400 mt-2">交互式：比較您的 % 正面回應率與 100% 理想目標</p>
                 </div>
 
                 <div class="lg:col-span-7 space-y-6">
-                    <h3 class="xl font-bold text-slate-700 border-l-4 border-teal-500 pl-4">差距分析与解决方案</h3>
+                    <h3 class="xl font-bold text-slate-700 border-l-4 border-teal-500 pl-4">差距分析與解決方案</h3>
                     <div class="space-y-4">
                         <div class="bg-slate-50 p-4 rounded-xl border border-slate-200">
                             <div class="flex items-start gap-3">
                                 <div class="bg-red-100 text-red-600 p-2 rounded-lg font-bold text-xl">⚠️</div>
                                 <div>
-                                    <h4 class="font-bold text-slate-800">非惩罚性错误响应</h4>
-                                    <p class="text-sm text-slate-600 mt-1"><strong>问题：</strong> 员工担心报告错误会受到惩罚，导致漏报和隐患隐藏。</p>
+                                    <h4 class="font-bold text-slate-800">非懲罰性錯誤回應</h4>
+                                    <p class="text-sm text-slate-600 mt-1"><strong>問題：</strong> 員工擔心報告錯誤會受到懲罰，導致漏報和隱患隱藏。</p>
                                     <div class="mt-3 bg-white p-3 rounded border border-slate-200 text-sm">
-                                        <strong class="text-teal-600">✅ 解决方案：</strong>
+                                        <strong class="text-teal-600">✅ 解決方案：</strong>
                                         <ul class="list-disc list-inside text-slate-500 mt-1">
-                                            <li>管理层宣布“无责报备 (Blame-free)”政策。</li>
-                                            <li>应用<strong>替代测试 (Substitution Test)</strong>（如果另一位合格人员会犯同样的错误？如果是 = 系统问题）。</li>
+                                            <li>管理層宣布「無責報備 (Blame-free)」政策。</li>
+                                            <li>應用<strong>替代測試 (Substitution Test)</strong>（如果另一位合格人員會犯同樣的錯誤？如果是 = 系統問題）。</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -756,13 +681,13 @@
                             <div class="flex items-start gap-3">
                                 <div class="bg-amber-100 text-amber-600 p-2 rounded-lg font-bold text-xl">⚡</div>
                                 <div>
-                                    <h4 class="font-bold text-slate-800">人员配置与工作量</h4>
-                                    <p class="text-sm text-slate-600 mt-1"><strong>问题：</strong> 工作量过大导致疲劳，以及为了完成任务而依赖捷径。</p>
+                                    <h4 class="font-bold text-slate-800">人員配置與工作量</h4>
+                                    <p class="text-sm text-slate-600 mt-1"><strong>問題：</strong> 工作量過大導致疲勞，以及為了完成任務而依賴捷徑。</p>
                                     <div class="mt-3 bg-white p-3 rounded border border-slate-200 text-sm">
-                                        <strong class="text-teal-600">✅ 解决方案：</strong>
+                                        <strong class="text-teal-600">✅ 解決方案：</strong>
                                         <ul class="list-disc list-inside text-slate-500 mt-1">
-                                            <li>优化排班（避免连班）。</li>
-                                            <li>利用自动化技术减少文书工作，将时间还给患者护理。</li>
+                                            <li>優化排班（避免連班）。</li>
+                                            <li>利用自動化技術減少文書工作，將時間還給患者護理。</li>
                                         </ul>
                                     </div>
                                 </div>
@@ -775,27 +700,27 @@
 
         <section class="py-8">
             <div class="text-center mb-12">
-                <h2 class="text-3xl font-bold text-slate-800">3. 实施路线图</h2>
+                <h2 class="text-3xl font-bold text-slate-800">3. 實施路線圖</h2>
                 <div class="h-1 w-20 bg-blue-500 mx-auto mt-4 rounded-full"></div>
-                <p class="text-slate-600 mt-4">分 3 个阶段的战略计划，系统地转变组织文化。</p>
+                <p class="text-slate-600 mt-4">分 3 個階段的戰略計劃，系統地轉變組織文化。</p>
             </div>
 
             <div class="relative max-w-5xl mx-auto pl-8 md:pl-0">
-                <div class="timeline-line hidden md:block" style="left: 50%; transform: translateX(-50%);"></div>
+                <div class="absolute left-0 md:left-1/2 -translate-x-1/2 top-0 bottom-0 w-1 bg-slate-200 hidden md:block"></div>
                 
                 <div class="relative grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
                     <div class="md:text-right md:pr-12 order-1">
                         <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-teal-500 relative">
-                            <h3 class="text-xl font-bold text-teal-700">第一阶段：建立信任</h3>
-                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">持续时间：第 1-3 个月</span>
+                            <h3 class="text-xl font-bold text-teal-700">第一階段：建立信任</h3>
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">持續時間：第 1-3 個月</span>
                             <p class="text-sm text-slate-600 mt-3 leading-relaxed">
-                                专注于转变领导层和员工的思维方式，鼓励关于安全的公开对话。
+                                專注於轉變領導層和員工的思維方式，鼓勵關於安全的公開對話。
                             </p>
                             <div class="mt-4 pt-4 border-t border-slate-100 text-left">
-                                <strong class="text-sm text-slate-700 block mb-2">🚀 关键活动：</strong>
+                                <strong class="text-sm text-slate-700 block mb-2">🚀 關鍵活動：</strong>
                                 <ul class="text-sm text-slate-600 space-y-2">
-                                    <li>🔹 <strong>行政安全巡查：</strong> 领导视察部门，目的是“倾听，而非指挥”。</li>
-                                    <li>🔹 <strong>停止指责运动：</strong> 将重点从寻找“谁”转变为寻找“什么”（系统缺陷）。</li>
+                                    <li>🔹 <strong>行政安全巡查：</strong> 領導視察部門，目的是「傾聽，而非指揮」。</li>
+                                    <li>🔹 <strong>停止指責運動：</strong> 將重點從尋找「誰」轉變為尋找「什麼」（系統缺陷）。</li>
                                 </ul>
                             </div>
                         </div>
@@ -809,17 +734,17 @@
                     <div class="absolute left-0 md:left-1/2 -translate-x-1/2 top-6 w-10 h-10 bg-blue-500 rounded-full border-4 border-white shadow-md z-10 flex items-center justify-center text-white font-bold">2</div>
                     <div class="md:pl-12 order-2">
                         <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-blue-500 relative">
-                            <h3 class="text-xl font-bold text-blue-700">第二阶段：报告系统</h3>
-                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">持续时间：第 4-6 个月</span>
+                            <h3 class="text-xl font-bold text-blue-700">第二階段：報告系統</h3>
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">持續時間：第 4-6 個月</span>
                             <p class="text-sm text-slate-600 mt-3 leading-relaxed">
-                                让报告对报告者来说既“简单”又“有意义”（避免“黑洞”效应）。
+                                讓報告對報告者來說既「簡單」又「有意義」（避免「黑洞」效應）。
                             </p>
                             <div class="mt-4 pt-4 border-t border-slate-100 text-left">
-                                <strong class="text-sm text-slate-700 block mb-2">🚀 关键活动：</strong>
+                                <strong class="text-sm text-slate-700 block mb-2">🚀 關鍵活動：</strong>
                                 <ul class="text-sm text-slate-600 space-y-2">
-                                    <li>🔹 <strong>简化 IR 表格：</strong> 将填写表格时间缩短至 2 分钟以内。</li>
-                                    <li>🔹 <strong>即时发现奖 (Good Catch Award)：</strong> 奖励报告未遂事故的员工。</li>
-                                    <li>🔹 <strong>反馈循环：</strong> 在 7 天内提供采取行动的反馈。</li>
+                                    <li>🔹 <strong>簡化 IR 表格：</strong> 將填寫表格時間縮短至 2 分鐘以內。</li>
+                                    <li>🔹 <strong>即時發現獎 (Good Catch Award)：</strong> 獎勵報告未遂事故的員工。</li>
+                                    <li>🔹 <strong>反饋循環：</strong> 在 7 天內提供採取行動的反饋。</li>
                                 </ul>
                             </div>
                         </div>
@@ -829,17 +754,17 @@
                 <div class="relative grid grid-cols-1 md:grid-cols-2 gap-8">
                     <div class="md:text-right md:pr-12 order-1">
                         <div class="bg-white p-6 rounded-2xl shadow-lg border-t-4 border-amber-500 relative">
-                            <h3 class="text-xl font-bold text-amber-600">第三阶段：维持与学习</h3>
-                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">持续时间：第 7 个月起</span>
+                            <h3 class="text-xl font-bold text-amber-600">第三階段：維持與學習</h3>
+                            <span class="text-xs font-bold text-slate-400 uppercase tracking-wide">持續時間：第 7 個月起</span>
                             <p class="text-sm text-slate-600 mt-3 leading-relaxed">
-                                从被动解决问题转向主动学习 (Proactive Learning)。
+                                從被動解決問題轉向主動學習 (Proactive Learning)。
                             </p>
                             <div class="mt-4 pt-4 border-t border-slate-100 text-left">
-                                <strong class="text-sm text-slate-700 block mb-2">🚀 关键活动：</strong>
+                                <strong class="text-sm text-slate-700 block mb-2">🚀 關鍵活動：</strong>
                                 <ul class="text-sm text-slate-600 space-y-2">
-                                    <li>🔹 <strong>安全晨会：</strong> 每天早上进行 5-10 分钟的简报以评估风险。</li>
-                                    <li>🔹 <strong>RCA (根本原因分析)：</strong> 分析系统原因而不指责个人。</li>
-                                    <li>🔹 <strong>分享成功：</strong> 跨部门分享“Safety-II”成功故事。</li>
+                                    <li>🔹 <strong>安全晨會：</strong> 每天早上進行 5-10 分鐘的簡報以評估風險。</li>
+                                    <li>🔹 <strong>RCA (根本原因分析)：</strong> 分析系統原因而不指責個人。</li>
+                                    <li>🔹 <strong>分享成功：</strong> 跨部門分享「Safety-II」成功故事。</li>
                                 </ul>
                             </div>
                         </div>
@@ -855,26 +780,25 @@
     <div class="container mx-auto px-4 pb-6">
       <div class="bg-slate-50 border border-slate-200 rounded-2xl p-5 shadow-sm">
         <p class="text-indigo-700 font-bold italic mb-1">
-          免责声明 (Disclaimer):
+          免責聲明 (Disclaimer):
         </p>
         <p class="text-slate-600 text-sm leading-relaxed">
-          本文档中的图表和内容是在人工智能 (AI) 协助下生成的，仅作为公共卫生服务分析和质量改进的初步指南。用户在实际应用前，应审查和验证信息，使其适应组织环境，并参考相关专业标准。
+          本文檔中的圖表和內容是在人工智慧 (AI) 協助下生成的，僅作為公共衛生服務分析和品質改進的初步指南。用戶在實際應用前，應審查和驗證信息，使其適應組織環境，並參考相關專業標準。
         </p>
       </div>
     </div>
 
     <footer class="bg-slate-900 py-12 border-t border-slate-800 mt-12">
         <div class="container mx-auto px-4 text-center">
-            <p class="text-slate-100 text-sm mb-2">本项目是 ASQua 框架下的倡议，旨在协调东盟成员国的质量标准。</p>
-            <p class="text-slate-200 text-sm mb-2"">该工具由 Krittichat Kamjornpreecha 和 Wilasinee Kueankaew 开发。</p>
+            <p class="text-slate-100 text-sm mb-2">本項目是 ASQua 框架下的倡議，旨在協調東盟成員國的質量標準。</p>
+            <p class="text-slate-200 text-sm mb-2">該工具由 Krittichat Kamjornpreecha 和 Wilasinee Kueankaew 開發。</p>
         </div>
     </footer>
 
     <script>
-        // --- Core Gemini API Call Function (PROXY VERSION) ---
+        // --- Core Gemini API Call Function ---
         async function callGemini(prompt) {
             try {
-                // Call the proxy server endpoint
                 const response = await fetch('/api/generate', {
                     method: 'POST',
                     headers: { 'Content-Type': 'application/json' },
@@ -893,29 +817,6 @@
                 throw error; 
             }
         }
-        function sanitizeLLMHtml(text) {
-          return String(text ?? "")
-            .replace(/```(?:html)?/gi, "")
-            .replace(/```/g, "")
-            .trim();
-        }
-        
-        function stripHtml(html) {
-          const tmp = document.createElement("div");
-          tmp.innerHTML = html;
-          return (tmp.textContent || tmp.innerText || "").trim();
-        }
-        
-        function looksLikeRiskAnalysis(html) {
-          // Check signature based on CHINESE prompt expectations
-          return (
-            html.includes("1. 事件摘要") &&
-            html.includes("鱼骨图分析") &&
-            html.includes("5个为什么") &&
-            html.includes("瑞士奶酪模型") &&
-            html.length > 300
-          );
-        }
 
         // --- 1. Combined Workflow Starter ---
         async function startFullAnalysis() {
@@ -926,223 +827,119 @@
             const planInput = document.getElementById('planInput');
             const planResultDiv = document.getElementById('planResult');
             
-            if (!input.trim()) { alert("请输入场景。"); return; }
+            if (!input.trim()) { alert("請輸入場景內容。"); return; }
 
-            // 1. Start UI feedback
             runButton.disabled = true;
             spinner.classList.remove('hidden');
             resultDiv.classList.add('hidden');
             planResultDiv.classList.add('hidden');
             planResultDiv.innerHTML = '';
-            planInput.value = '正在分析并生成计划... 请稍候。';
+            planInput.value = '正在進行繁體中文分析並生成計畫... 請稍候。';
             planInput.classList.remove('ring-4', 'ring-green-300', 'bg-green-50');
 
             try {
-                // --- STEP 1: Analyze Risk (Chinese) ---
+                // --- STEP 1: Analyze Risk (Traditional Chinese) ---
                 const analysisData = await analyzeRiskStep(input);
                 
-                // Display analysis result
                 resultDiv.innerHTML = analysisData.html;
                 resultDiv.classList.remove('hidden');
                 
-                // Prepare data for Step 2
-                const autoFilledContent = `[场景]\n${input}\n\n[风险分析结果]\n${analysisData.cleanText}`;
+                const autoFilledContent = `[場景]\n${input}\n\n[風險分析結果]\n${analysisData.cleanText}`;
                 planInput.value = autoFilledContent;
                 
-                // --- STEP 2: Generate Action Plan (Automatic - Chinese) ---
-                planInput.value = '分析完成... 正在生成详细行动计划...';
+                // --- STEP 2: Generate Action Plan (Automatic - Traditional) ---
+                planInput.value = '分析完成... 正在生成詳細繁體中文行動計畫...';
                 const actionPlanHTML = await generateActionPlanStep(autoFilledContent);
 
-                // Display action plan result
                 planResultDiv.innerHTML = actionPlanHTML;
                 planResultDiv.classList.remove('hidden');
 
-                // Success Feedback
-                planInput.value = '✔ 行动计划已成功生成';
+                planInput.value = '✔ 行動計畫已成功生成';
                 planInput.classList.add('ring-4', 'ring-green-300', 'bg-green-50');
-                // Auto-scroll to the result
                 planResultDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
 
                 setTimeout(() => { planInput.classList.remove('ring-4', 'ring-green-300', 'bg-green-50'); }, 1500);
 
             } catch (error) {
                 console.error("Full analysis failed:", error);
-                alert("分析过程中出错: " + error.message);
-                planInput.value = `错误: ${error.message}`;
+                alert("分析過程中出錯: " + error.message);
+                planInput.value = `錯誤: ${error.message}`;
             } finally {
-                // 3. End UI feedback
                 spinner.classList.add('hidden');
                 runButton.disabled = false;
             }
         }
 
-        // --- 1a. Analyze Risk Step (Private Function) ---
+        // --- 1a. Analyze Risk Step (Traditional) ---
         async function analyzeRiskStep(input) {
-            const prompt = `扮演一名专注于根本原因分析 (RCA) 的患者安全专家。
-            分析以下医疗场景（输入内容可能为中文或英文）："${input}"。
+            const prompt = `扮演一名專注於根本原因分析 (RCA) 的患者安全專家。
+            分析以下醫療場景（輸入可能為中文、泰文或英文）："${input}"。
             
-            请使用 HTML 格式并用【简体中文】提供输出。不要使用 Markdown 代码块。
-            请严格遵循以下结构：
+            請使用 HTML 格式並「嚴格」使用【繁體中文 (Traditional Chinese/Taiwan)】提供輸出。不要使用 Markdown 代碼塊。
+            請嚴格遵循以下結構：
             
             <h3 class="font-bold text-lg text-teal-700 mb-2">1. 事件摘要</h3>
-            <p class="mb-2 text-slate-600">...提供事件的叙述性摘要...</p>
+            <p class="mb-2 text-slate-600">...提供事件的敘述性摘要...</p>
             <ul class="list-disc pl-5 mb-4 text-slate-600 space-y-1">
-                <li>...关键点 1...</li>
-                <li>...关键点 2...</li>
+                <li>...關鍵點 1...</li>
+                <li>...關鍵點 2...</li>
             </ul>
 
-            <h3 class="font-bold text-lg text-teal-700 mb-2">2. 事件时间线</h3>
+            <h3 class="font-bold text-lg text-teal-700 mb-2">2. 事件時間線</h3>
             <ol class="list-decimal pl-5 mb-4 text-slate-600 space-y-1">
-                <li>...详细步骤 1...</li>
-                <li>...详细步骤 2...</li>
+                <li>...詳細步驟 1...</li>
+                <li>...詳細步驟 2...</li>
             </ol>
 
-            <h3 class="font-bold text-lg text-amber-700 mb-2">3. 鱼骨图分析 (Ishikawa)</h3>
-            <p class="text-xs text-slate-500 mb-3">根本原因的结构化分解 (6M)</p>
+            <h3 class="font-bold text-lg text-amber-700 mb-2">3. 魚骨圖分析 (Ishikawa)</h3>
+            <p class="text-xs text-slate-500 mb-3">根本原因的結構化分解 (6M)</p>
             <div class="fishbone-grid">
-                <div class="fishbone-card"><div class="fishbone-header">👤 人 (People)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素 1...</li><li>...因素 2...</li></ul></div>
-                <div class="fishbone-card"><div class="fishbone-header">⚙️ 机 (Equipment)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素 1...</li><li>...因素 2...</li></ul></div>
-                <div class="fishbone-card"><div class="fishbone-header">📝 法 (Process)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素 1...</li><li>...因素 2...</li></ul></div>
-                <div class="fishbone-card"><div class="fishbone-header">📦 料 (Supplies)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素 1...</li><li>...因素 2...</li></ul></div>
-                <div class="fishbone-card"><div class="fishbone-header">🌡️ 环 (Environment)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素 1...</li><li>...因素 2...</li></ul></div>
-                <div class="fishbone-card"><div class="fishbone-header">📏 测 (Measurement)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素 1...</li><li>...因素 2...</li></ul></div>
+                <div class="fishbone-card"><div class="fishbone-header">👤 人 (People)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素...</li></ul></div>
+                <div class="fishbone-card"><div class="fishbone-header">⚙️ 機 (Equipment)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素...</li></ul></div>
+                <div class="fishbone-card"><div class="fishbone-header">📝 法 (Process)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素...</li></ul></div>
+                <div class="fishbone-card"><div class="fishbone-header">📦 料 (Supplies)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素...</li></ul></div>
+                <div class="fishbone-card"><div class="fishbone-header">🌡️ 境 (Environment)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素...</li></ul></div>
+                <div class="fishbone-card"><div class="fishbone-header">📏 測 (Measurement)</div><ul class="list-disc pl-4 text-xs text-slate-600 space-y-1"><li>...因素...</li></ul></div>
             </div>
 
-            <h3 class="font-bold text-lg text-pink-600 mb-2">4. 5个为什么分析</h3>
-            <p class="text-xs text-slate-500 mb-3">深入挖掘最根本的原因</p>
+            <h3 class="font-bold text-lg text-pink-600 mb-2">4. 5個為什麼分析</h3>
             <div class="bg-pink-50 p-4 rounded-lg border border-pink-100 mb-4">
-                 <div class="why-step"><div class="why-number">1</div><div class="why-line"></div><div class="text-sm text-slate-700 pt-1">为什么...</div></div>
-                 <div class="why-step"><div class="why-number">2</div><div class="why-line"></div><div class="text-sm text-slate-700 pt-1">为什么...</div></div>
-                 <div class="why-step"><div class="why-number">3</div><div class="why-line"></div><div class="text-sm text-slate-700 pt-1">为什么...</div></div>
-                 <div class="why-step"><div class="why-number">4</div><div class="why-line"></div><div class="text-sm text-slate-700 pt-1">为什么...</div></div>
+                 <div class="why-step"><div class="why-number">1</div><div class="why-line"></div><div class="text-sm text-slate-700 pt-1">為什麼...</div></div>
                  <div class="why-step"><div class="why-number">5</div><div class="text-sm text-slate-700 pt-1 font-bold text-pink-700">根本原因: ...</div></div>
             </div>
-            <h3 class="font-bold text-lg text-green-700 mb-2">5. 圣诞树图 (FTA)</h3>
-            <p class="text-xs text-slate-500 mb-3">故障路径的自上而下分析</p>
-            <div class="bg-green-50 p-4 rounded-lg border border-green-100 mb-4 font-mono text-sm text-slate-700">
-                <div><strong>🛑 顶层事件:</strong> [主要事故]</div>
-                <div class="pl-4 border-l-2 border-slate-300 ml-2 mt-2">
-                    <div class="bg-slate-200 inline-block px-1 rounded text-xs mb-1">或门 (OR Gate)</div>
-                    <ul class="list-disc pl-5 space-y-1">
-                        <li>
-                            <strong>原因 A:</strong> ...
-                            <div class="pl-4 border-l-2 border-slate-300 mt-1">
-                                <span class="bg-slate-200 text-xs px-1 rounded">与门 (AND Gate)</span>
-                                <ul class="list-circle pl-5 mt-1 text-xs">
-                                    <li>基本事件 1</li>
-                                    <li>基本事件 2</li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><strong>原因 B:</strong> ...</li>
-                    </ul>
-                </div>
-            </div>
-            <h3 class="font-bold text-lg text-amber-700 mb-2">6. 瑞士奶酪分析 (分层)</h3>
+
+            <h3 class="font-bold text-lg text-amber-700 mb-2">5. 瑞士乳酪分析</h3>
             <table class="rca-table">
-              <thead>
-                <tr>
-                    <th width="30%">系统层级</th>
-                    <th width="20%">类型</th>
-                    <th>描述</th>
-                </tr>
-              </thead>
+              <thead><tr><th width="30%">系統層級</th><th width="20%">類型</th><th>描述</th></tr></thead>
               <tbody>
-                <tr><td><strong>组织影响</strong></td><td>潜在</td><td>...</td></tr>
-                <tr><td><strong>不安全监管</strong></td><td>潜在</td><td>...</td></tr>
-                <tr><td><strong>前提条件</strong></td><td>潜在</td><td>...</td></tr>
-                <tr><td><strong>不安全行为</strong></td><td>活跃</td><td>...</td></tr>
+                <tr><td><strong>組織影響</strong></td><td>潛在</td><td>...</td></tr>
+                <tr><td><strong>不安全行為</strong></td><td>活躍</td><td>...</td></tr>
               </tbody>
             </table>`;
 
             const responseText = await callGemini(prompt);
             let formattedText = responseText.replace(/```html/g, '').replace(/```/g, '');
             const cleanText = responseText.replace(/<[^>]*>?/gm, ''); 
-            
-            if (formattedText.includes("Error") || formattedText.length < 50) {
-                 throw new Error("风险分析失败");
-            }
-
             return { html: formattedText, cleanText: cleanText };
         }
 
-        // --- 1b. Action Plan Generation Step (Private Function) ---
+        // --- 1b. Action Plan Generation Step (Traditional) ---
         async function generateActionPlanStep(analysisData) {
-            const prompt = `扮演一名医院安全经理。 
-            基于分析数据: "${analysisData}".
-
-            请使用 HTML 格式并用【简体中文】创建一个全面的响应，包含 3 个不同的表格，随后是结论部分。
+            const prompt = `扮演醫院安全經理。基於分析數據: "${analysisData}".
+            請使用 HTML 格式並「嚴格」使用【繁體中文 (Traditional Chinese/Taiwan)】。
             
-            第 1 部分：PDSA 策略摘要 (格式：蓝色标题，扩展 PDSA 详情)
-            <h3 class="font-bold text-lg text-blue-700 mb-2">1. PDSA 策略摘要</h3>
-            <table class="action-table" style="width:100%; border-collapse: collapse; border: 1px solid #ddd;">
-              <tr style="background-color:#0EA5E9; color: white;">
-                 <th style="padding:10px;">主题</th><th style="padding:10px;">详情</th>
-              </tr>
-              <tr><td><strong>目标</strong></td><td>...</td></tr>
-              <tr>
-                <td><strong>PDSA 循环</strong></td>
-                <td>
-                  <ul style="list-style-type: disc; margin-left: 20px; padding-left: 0;">
-                    <li><strong>Plan (计划):</strong> ...详细计划活动...</li>
-                    <li><strong>Do (执行):</strong> ...关键实施行动...</li>
-                    <li><strong>Study (研究):</strong> ...关键指标...</li>
-                    <li><strong>Act (行动):</strong> ...下一个循环计划...</li>
-                  </ul>
-                </td>
-              </tr>
-              <tr><td><strong>关键 KPI</strong></td><td>...</td></tr>
-            </table>
-
-            第 2 部分：详细行动计划 (格式：蓝绿色标题)
-            <h3 class="font-bold text-lg text-teal-700 mt-6 mb-2">2. 详细行动计划</h3>
-            <table class="action-table" style="width:100%; border-collapse: collapse; border: 1px solid #ddd;">
-              <tr style="background-color:#0D9488; color: white;">
-                 <th style="padding:10px;">目标</th>
-                 <th style="padding:10px;">步骤</th>
-                 <th style="padding:10px;">KPI</th>
-                 <th style="padding:10px;">目标值</th>
-                 <th style="padding:10px;">资源</th>
-                 <th style="padding:10px;">负责人</th>
-                 <th style="padding:10px;">时间表</th>
-              </tr>
-              <tr><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-            </table>
-
-            第 3 部分：患者安全倡议 (格式：紫色标题)
-            <h3 class="font-bold text-lg text-purple-700 mt-6 mb-2">3. 创新安全倡议</h3>
-            <table class="initiative-table" style="width:100%; border-collapse: collapse; border: 1px solid #ddd;">
-              <tr style="background-color:#7C3AED; color: white;">
-                 <th style="padding:10px;">编号</th>
-                 <th style="padding:10px;">倡议</th>
-                 <th style="padding:10px;">简要描述</th>
-                 <th style="padding:10px;">实施方法</th>
-                 <th style="padding:10px;">主要负责人</th>
-                 <th style="padding:10px;">预期成果</th>
-              </tr>
-              <tr><td>1</td><td>...</td><td>...</td><td>...</td><td>...</td><td>...</td></tr>
-            </table>
-            
-            <h3 class="font-bold text-lg text-indigo-700 mt-6 mb-2">4. 结论与建议</h3>
-            <div class="bg-indigo-50 p-4 rounded-xl border border-indigo-200 text-sm space-y-3">
-                <p><strong>关键行动摘要:</strong> ...</p>
-                <p><strong>经验教训:</strong> ...</p>
-                <p><strong>安全文化愿景:</strong> ...</p>
-            </div>`;
+            包含以下部分：
+            1. PDSA 策略摘要 (表格形式)
+            2. 詳細行動計畫 (包含：目標、步驟、KPI、負責人、時間表)
+            3. 創新安全倡議 (表格形式)
+            4. 結論與建議 (背景為藍紫色)`;
 
             try {
                 const responseText = await callGemini(prompt);
-                let formattedContent = responseText.replace(/```html/g, '').replace(/```/g, '');
-
-                if (formattedContent.length < 50) {
-                      console.warn("Response too short:", formattedContent);
-                      throw new Error("AI 返回了不完整的响应。");
-                }
-                return formattedContent;
-
+                return responseText.replace(/```html/g, '').replace(/```/g, '');
             } catch (error) {
                 console.error("Action Plan Error:", error);
-                throw new Error(`行动计划生成失败: ${error.message}`);
+                throw new Error(`行動計畫生成失敗: ${error.message}`);
             }
         }
 
@@ -1152,70 +949,64 @@
             const riskAnalysis = document.getElementById('analyzeResult').innerHTML;
             const actionPlan = document.getElementById('planResult').innerHTML;
 
-            if (!actionPlan || actionPlan.includes("loader") || document.getElementById('planInput').value.includes("等待")) { alert("请先完成分析和行动计划生成。"); return; }
+            if (!actionPlan) { alert("請先完成分析。"); return; }
 
             const content = `
                 <html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'>
-                <head>
-                    <meta charset='utf-8'>
-                    <title>安全行动计划</title>
-                    <style>
-                        body { font-family: 'Arial', 'Calibri', sans-serif; font-size: 11pt; line-height: 1.2; color: #333; }
-                        h1 { color: #1e3a8a; text-align: center; font-size: 16pt; margin-bottom: 5px; font-weight: bold; }
-                        h2 { color: #0f766e; border-bottom: 2px solid #0f766e; padding-bottom: 5px; margin-top: 25px; font-size: 14pt; font-weight: bold; }
-                        h3 { color: #444; font-size: 12pt; margin-top: 20px; margin-bottom: 10px; font-weight: bold; }
-                        table { border-collapse: collapse; width: 100%; margin-bottom: 20px; font-size: 10pt; }
-                        th, td { border: 1px solid #000; padding: 5px 10px; vertical-align: top; text-align: left; }
-                        th { color: white; font-weight: bold; }
-                        .rca-table th { background-color: #F59E0B; }
-                        .action-table th { background-color: #0EA5E9; } 
-                        .initiative-table th { background-color: #7C3AED; }
-                        table:nth-of-type(1) th { background-color: #1e293b; }
-                        .fishbone-grid { display: table; width: 100%; }
-                        .fishbone-card { display: table-cell; border: 1px solid #ccc; padding: 10px; width: 30%; margin: 5px; }
-                        ul, ol { margin: 0; padding-left: 25px; }
-                        li { margin-bottom: 3px; }
-                    </style>
-                </head>
+                <head><meta charset='utf-8'><title>患者安全行動計畫</title>
+                <style>
+                    body { font-family: 'Arial', sans-serif; }
+                    h1 { color: #1e3a8a; text-align: center; }
+                    h2 { color: #0f766e; border-bottom: 2px solid #0f766e; }
+                    table { border-collapse: collapse; width: 100%; }
+                    th, td { border: 1px solid #000; padding: 5px; text-align: left; }
+                    th { background-color: #f2f2f2; }
+                </style></head>
                 <body>
-                    <div style="text-align: right; font-size: 10pt; color: #666; margin-bottom: 20px;">日期: ${new Date().toLocaleDateString('zh-CN')}</div>
-                    <h1>安全行动计划报告</h1>
-                    <h2>1. 风险分析</h2>
-                    <table><tr><th style="background-color:#1e293b;" width="20%">场景</th><td>${scenario || '-'}</td></tr></table>
-                    ${riskAnalysis || '-'}
-                    <h2>2. 行动计划与倡议</h2>
-                    ${actionPlan}
-                    <br><p style="text-align: center; font-size: 9pt; color: #999; margin-top:50px;">文档由 RCA 洞察助手生成</p>
-                </body>
-                </html>
-            `;
+                    <h1>患者安全行動計畫報告</h1>
+                    <h2>1. 場景描述</h2><p>${scenario}</p>
+                    <h2>2. 根本原因分析 (RCA)</h2>${riskAnalysis}
+                    <h2>3. 行動計畫與 PDSA</h2>${actionPlan}
+                </body></html>`;
             const blob = new Blob(['\ufeff', content], { type: 'application/msword' });
             const url = URL.createObjectURL(blob);
             const link = document.createElement('a');
             link.href = url;
-            link.download = `安全计划_${new Date().toISOString().slice(0,10)}.doc`;
+            link.download = `患者安全計畫_${new Date().toISOString().slice(0,10)}.doc`;
             document.body.appendChild(link);
             link.click();
             document.body.removeChild(link);
         }
 
-        // Charts (Standard)
-        Chart.defaults.font.family = "'Noto Sans SC', sans-serif";
-        Chart.defaults.color = '#64748B';
+        // --- Charts Initialization (Traditional) ---
+        const labels = ['團隊合作', '人員配置與工作節奏', '組織學習', '錯誤響應', '主管支持', '關於錯誤的溝通', '溝通開放性', '安全事件報告', '醫院管理層支持', '交接與信息交換'];
+        const ctrlContainer = document.getElementById('radarControls');
+        
+        labels.forEach((label, i) => {
+            ctrlContainer.innerHTML += `
+                <div>
+                    <div class="flex justify-between mb-1">
+                        <label class="text-slate-700 font-semibold text-xs">${label}</label>
+                        <span id="val-${i}" class="text-teal-600 font-bold text-xs">0.00%</span>
+                    </div>
+                    <input type="range" min="0" max="100" step="0.01" value="0" class="w-full h-2 bg-slate-300 rounded-lg appearance-none cursor-pointer accent-teal-500" oninput="updateChartData(${i}, this.value)">
+                </div>`;
+        });
+
+        Chart.defaults.font.family = "'Noto Sans TC', sans-serif";
         const ctx = document.getElementById('assessmentChart');
         const assessmentChart = new Chart(ctx, {
             type: 'bar',
             data: { 
-                labels: ['团队合作', '人员配置与工作节奏', '组织学习', '错误响应', '主管支持', '关于错误的沟通', '沟通开放性', '安全事件报告', '医院管理层支持', '交接与信息交换'], 
+                labels: labels, 
                 datasets: [
-                    { label: '您的医院 (% 正面)', data: [0,0,0,0,0,0,0,0,0,0], backgroundColor: '#0D9488', borderRadius: 4, barPercentage: 0.6 }, 
-                    { label: '理想目标 (100%)', data: [100,100,100,100,100,100,100,100,100,100], backgroundColor: '#E2E8F0', borderRadius: 4, barPercentage: 0.6, borderWidth: 1, borderColor: '#94A3B8' }
+                    { label: '您的醫院 (% 正面)', data: Array(10).fill(0), backgroundColor: '#0D9488', borderRadius: 4 }, 
+                    { label: '理想目標 (100%)', data: Array(10).fill(100), backgroundColor: '#E2E8F0', borderRadius: 4 }
                 ] 
             },
             options: { 
-                indexAxis: 'y', responsive: true, maintainAspectRatio: false, 
-                scales: { x: { suggestedMin: 0, max: 100, grid: { color: '#f1f5f9' }, title: { display: true, text: '% 正面响应' } }, y: { grid: { display: false } } }, 
-                plugins: { tooltip: { callbacks: { title: ctx => Array.isArray(ctx[0].label) ? ctx[0].label.join(' ') : ctx[0].label, label: function(context) { return context.dataset.label + ': ' + context.parsed.x + '%'; } }, padding: 12, backgroundColor: '#1E293B' }, legend: { position: 'bottom' } } 
+                indexAxis: 'y', responsive: true, maintainAspectRatio: false,
+                scales: { x: { max: 100 } }
             }
         });
 
